@@ -1,6 +1,7 @@
 package model
 
 type DataRow struct {
+	RowIndex      int
 	Project       string
 	Type          string
 	Key           string
